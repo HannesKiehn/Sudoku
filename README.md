@@ -15,10 +15,13 @@ Feel free to try the application using the link above.
 - Checking for mistakes
 - Modals for new game and victory screen
 - Number entry via buttons and keyboard
+- Given numbers are not editable
 
 ## Skills demonstrated in this project
 
 - Practical skills in HTML, CSS, Javascript and React
+- Application of main concepts in React (components, state, props, event handling, conditional rendering)
+- ES6 features such as arrow functions and destructuring
 - Handling keyboard events
 
 ## Learning ressources used for this project
@@ -26,3 +29,4 @@ Feel free to try the application using the link above.
 - Mosh Hamedani coding school (https://codewithmosh.com/ Java Mastery Series, HTML/CSS Series, Mastering React)
 - React example projects (https://reactjs.org/community/examples.html)
 - Bootstrap documentation (https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- Tutorial for hosting React projects on GitHub (https://github.com/gitname/react-gh-pages/tree/master)
