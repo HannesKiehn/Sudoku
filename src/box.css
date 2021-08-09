@@ -1,0 +1,35 @@
+.box {
+  height: calc(100% / 3);
+  width: calc(100% / 3);
+  outline: 1px solid black;
+  float: left;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.boxGiven {
+  color: black;
+}
+.boxUser {
+  color: grey;
+  font-style: italic;
+}
+.incorrect {
+  color: red;
+}
+.boxSelected {
+  background-color: rgb(0, 217, 255);
+}
+.bigBox {
+  height: calc(100% / 3);
+  width: calc(100% / 3);
+  outline: 2px solid black;
+  float: left;
+}
+.field {
+  height: 50vmin;
+  width: 50vmin;
+  outline: 5px solid black;
+}
