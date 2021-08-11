@@ -6,7 +6,7 @@ http://HannesKiehn.github.io/Sudoku
 
 ## Introduction
 
-This project serves as a good introduction to building web applicatons in React.<br/>
+This project serves as a good introduction to building web applicatons with React. It is a fully funcional implementation of the logic-puzzle game sudoku. The sudoku grid is build with plane css, while other UI elements (buttons, checkbox) utilize bootstrap. Under the hood it includes a sudoku solver to generate random (but solveable) puzzles.<br/>
 Feel free to try the application using the link above.
 
 ## Features
