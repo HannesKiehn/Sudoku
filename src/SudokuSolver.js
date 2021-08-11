@@ -29,6 +29,13 @@ class SudokuSolver {
   }
 
   isSolveable() {
+    if (!this.isValidGrid()) {
+      return false;
+    }
+    return this.solver();
+  }
+
+  solver() {
     let zeroIndex = this.numbers.indexOf(0);
     if (zeroIndex === -1) {
       return true;
@@ -46,7 +53,6 @@ class SudokuSolver {
     }
     return false;
   }
-
   // Fisher-Yates shuffle algorithm
   shuffle(a) {
     for (let i = a.length - 1; i > 0; i--) {
@@ -78,6 +84,21 @@ class SudokuSolver {
     if (this.getBox(boxNum).includes(number)) {
       this.numbers[index] = 0;
       return false;
+    }
+    return true;
+  }
+
+  isValidGrid() {
+    for (let i = 0; i < 81; i++) {
+      if (this.numbers[i] !== 0) {
+        let saveNum = this.numbers[i];
+        this.numbers[i] = 0;
+        if (!this.isValidToAdd(saveNum, i)) {
+          this.numbers[i] = saveNum;
+          return false;
+        }
+        this.numbers[i] = saveNum;
+      }
     }
     return true;
   }
