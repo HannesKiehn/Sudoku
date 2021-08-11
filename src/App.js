@@ -215,7 +215,7 @@ class App extends Component {
 
   getGivenNumbers() {
     const { selectedDifficulty: dif } = this.state;
-    let givenNumbers = 80;
+    let givenNumbers = 50;
     if (dif === "Medium") {
       givenNumbers = 40;
     }
