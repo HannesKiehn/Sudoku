@@ -15,13 +15,15 @@ Feel free to try the application using the link above.
 - Checking for mistakes
 - Modals for new game and victory screen
 - Number entry via buttons and keyboard
-- Given numbers are not editable
+- Given numbers are not editable and are displayed in a different color
+- Difficulty setting (controls given numbers)
 
 ## Skills demonstrated in this project
 
 - Practical skills in HTML, CSS, Javascript and React
 - Application of main concepts in React (components, state, props, event handling, conditional rendering)
 - ES6 features such as arrow functions and destructuring
+- Unit testing
 - Handling keyboard events
 
 ## Learning ressources used for this project
